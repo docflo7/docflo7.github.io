@@ -295,6 +295,11 @@ section div.spacebeforesection {
   font-weight: bold;
 }
 
+.footer-xs {
+  border: none;
+  padding-top: 0;
+}
+
 .modal-dialog {
   max-width: 100%;
 }
@@ -307,6 +312,12 @@ section div.spacebeforesection {
   border: 1px solid #888;
   width: 95%;
   /* Could be more or less, depending on screen size */
+}
+
+@media (max-width: 576px) {
+  h5.modal-title {
+    font-size: 100%;
+  }
 }
 
 .confine-carousel {
