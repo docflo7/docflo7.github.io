@@ -303,6 +303,22 @@ section div.spacebeforesection {
 .modal-dialog {
   max-width: 100%;
 }
+
+.modal-small {
+  max-width: 100%;
+  }
+
+@media (min-width: 576px) {
+  .modal-small {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-small {
+    max-width: 50%;
+  }
+}
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
